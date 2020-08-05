@@ -1,0 +1,6 @@
+<div>
+    <img *ngIf="display;" src="assets/bulboff.png" width="450px" height="450px">
+    <img *ngIf="!display;" src="assets/bulbon.png" width="450px" height="450px">
+</div>
+
+<button (click)="clicked();">{{display?"OFF":"ON"}}</button>
